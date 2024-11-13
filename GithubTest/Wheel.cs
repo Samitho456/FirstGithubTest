@@ -8,5 +8,10 @@ namespace GithubTest
 {
     public class Wheel
     {
+        public int Amount { get; set; }
+        public Wheel (int wheels) 
+        {
+            Amount = wheels;
+        }
     }
 }
