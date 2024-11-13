@@ -22,5 +22,10 @@ namespace GithubTest
             Console.WriteLine("wroom wroom");
         }
 
+        public void Print()
+        {
+            Console.WriteLine("Hej");
+        }
+
     }
 }
